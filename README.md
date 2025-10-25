@@ -1,9 +1,9 @@
 
 # Owl o Meter
 
-![Owl_o_Meter](img/owl_o_meter.png)
-
-
+<p align="center">
+    <img src="img/owl_o_meter.png"/>
+</p>
 ---
 
 A simple project written in **Rust**, designed to collect runtime metrics from a **Python process** and assist in estimating execution costs across **AWS Lambda**, **ECS Fargate**, and **EKS Fargate**.

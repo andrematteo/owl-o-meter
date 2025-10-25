@@ -1,0 +1,8 @@
+[package]
+name = "owl-o-meter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sysinfo = "0.37.2"
+colored = "3.0.0"

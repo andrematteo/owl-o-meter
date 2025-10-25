@@ -49,6 +49,8 @@ cargo run -- python3 simple_script.py
 ### Release
 ```shell
 
+install podman (https://podman.io/)
+
 ./release-all.sh
 
 dist/
@@ -60,6 +62,7 @@ owl-o-meter-macos-x64
 owl-o-meter-windows.exe
 
 ```
+
 
 
 ### Run using the binary
@@ -206,19 +209,6 @@ Managed Kubernetes on AWS with serverless compute through Fargate. You get the p
 - **Memory**: $0.004445 per GB-hour (same as ECS)
 - **Example**: Cluster + 0.25 vCPU + 0.5GB = ~$85/month (24/7 runtime)
 
----
-
-## Summary Comparison
-
-| Criteria | Lambda | ECS Fargate | EKS Fargate |
-|----------|--------|-------------|-------------|
-| **Complexity** | ⭐ Very low | ⭐⭐ Medium | ⭐⭐⭐⭐ High |
-| **Cost (intermittent workload)** | ⭐⭐⭐⭐⭐ Excellent | ⭐⭐ Expensive | ⭐ Very expensive |
-| **Cost (continuous workload)** | ⭐ Very expensive | ⭐⭐⭐ Good | ⭐⭐ Moderate |
-| **Portability** | ⭐ Low | ⭐⭐ Medium | ⭐⭐⭐⭐⭐ Excellent |
-| **Scalability** | ⭐⭐⭐⭐⭐ Automatic | ⭐⭐⭐ Configurable | ⭐⭐⭐⭐ Advanced |
-| **Control** | ⭐⭐ Limited | ⭐⭐⭐⭐ High | ⭐⭐⭐⭐⭐ Full |
-| **Vendor Lock-in** | ⭐ High | ⭐⭐⭐ Medium | ⭐⭐⭐⭐⭐ Low |
 
 ---
 
